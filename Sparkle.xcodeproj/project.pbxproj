@@ -1520,6 +1520,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA1941CA0D94A70100DD942E /* ConfigFrameworkDebug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "Developer ID Application: Briefs LC";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -1531,6 +1532,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA1941D50D94A70100DD942E /* ConfigFrameworkRelease.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "Developer ID Application: Briefs LC";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -1557,6 +1559,7 @@
 			baseConfigurationReference = FA1941D30D94A70100DD942E /* ConfigRelaunchDebug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "Developer ID Application: Briefs LC";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
@@ -1582,6 +1585,7 @@
 			baseConfigurationReference = FA1941D40D94A70100DD942E /* ConfigRelaunchRelease.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "Developer ID Application: Briefs LC";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
@@ -1607,6 +1611,7 @@
 			baseConfigurationReference = FA1941D40D94A70100DD942E /* ConfigRelaunchRelease.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "Developer ID Application: Briefs LC";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_MODEL_TUNING = G5;
@@ -1655,6 +1660,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 61072EB20DF2640C008FE88B /* ConfigFrameworkReleaseGCSupport.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "Developer ID Application: Briefs LC";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
